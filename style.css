@@ -1,0 +1,50 @@
+body {
+  background: #0d0d0d;
+  color: #ffd700;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: 60px auto;
+  text-align: center;
+  border: 2px solid #ffd700;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  background: #ffd700;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #e6c200;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+  color: #ffd700;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #1a1a1a;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+}

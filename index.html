@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google Drive API Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Google Drive API</h1>
+
+    <button id="loginBtn">Sign In</button>
+    <button id="logoutBtn" hidden>Sign Out</button>
+
+    <div id="actions" hidden>
+      <input type="file" id="fileInput">
+      <button id="uploadBtn">Upload File</button>
+      <button id="createFolderBtn">Create Folder</button>
+      <button id="listBtn">List Files</button>
+    </div>
+
+    <ul id="fileList"></ul>
+  </div>
+
+  <!-- Google APIs -->
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script src="https://accounts.google.com/gsi/client"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
