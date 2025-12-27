@@ -3,7 +3,7 @@
 ## Project Overview
 This project is a web-based application that demonstrates the integration of the **Google Drive API** using **OAuth 2.0 authentication**. It allows users to securely sign in with their Google account and perform basic file management operations such as viewing files, uploading files, and creating folders in Google Drive.
 
-The project highlights the proper use of APIs, authentication, and client-side JavaScript integration with Google services. 
+The project highlights the proper use of APIs, authentication, and client-side JavaScript integration with Google services.
 
 ---
 
